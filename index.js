@@ -12,7 +12,7 @@ function sleep(ms) {
 client.on('ready', () => {
     //BOT INIT
     console.log(`Logged in as ${client.user.tag}!`);
-    client.user.setPresence({ activity: { name: "github.com/Pol528/Disboard-autobump", type: "WATCHING" }, status: "IDLE" });
+    client.user.setPresence({ activity: { name: "hahaha", type: "WATCHING" }, status: "IDLE" });
     const BumpChannel = client.channels.cache.get(BumpChannelID)
     //SEEING AT WHAT TIME WE NEED TO BUMP NEXT
     const time = new Date();
